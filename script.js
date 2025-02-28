@@ -20,7 +20,7 @@ function submitSignUpBlock() {
         document.getElementById('blockPassword').value = '';
     } else {
         alert("Please have some Common sense! Complete all the text boxes!");
-    }
+}
 }
 
 document.addEventListener("DOMContentLoaded", () => {
