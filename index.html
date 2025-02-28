@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JRganics.ppt</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="presentation-wrapper">
+    <section id="homeScreen" class="slide"><img src = "Yuhh.png"></section>
+    <section id="infoScreen" class="slide"><img src = "Nuhhh.png"></section>
+    <section id="productsScreen" class="slide">
+        <div class="products-content">
+            <div class="product-images">
+                <img src="Solar.webp" alt="Solar Panel">
+                <img src="BSmill.webp" alt="Portable Windmill">
+                <img src="AirGUI.webp" alt="Natural Air Conditioner">
+            </div>
+            <div class="product-description">
+                <span id="typingEffect"></span>
+            </div>
+            <div>
+                <h1>We offer Verified long-lasting products tht has been scientifcally been tested to be relient in nature related disasters.</span></h1>
+            </div>
+        </div>
+        
+</div>
+<h1 style="text-align:center">Company number 0977-207-1011 </h1>
+<h1 style="text-align:center">Company backup 0977-207-1008 </h1>
+
+
+<nav class="navbar">
+    <div class="nav-left">
+        <a href="#homeScreen">Home</a>
+        <a href="#infoScreen">Info</a>
+        <a href="#productsScreen">Products</a>
+    </div>
+    <div class="nav-right">
+        <a href="#" onclick="openSignUpBlock()">Sign Up</a>
+    </div>
+</nav>
+
+<div id="signUpBlock" class="sign-up-block">
+    <div class="popup-header">
+        <span class="back-arrow" onclick="closeSignUpBlock()">⬅️</span>
+        <h2>Sign Up</h2>
+    </div>
+    <input type="text" id="blockName" placeholder="Name">
+    <input type="email" id="blockEmail" placeholder="Email">
+    <input type="password" id="blockPassword" placeholder="Password">
+    <button onclick="submitSignUpBlock()">Sign Up</button>
+    <div id="confirmationMessage" class="hidden">✅ Confirmation email has been sent to your device!</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
